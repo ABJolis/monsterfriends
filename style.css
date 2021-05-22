@@ -26,13 +26,13 @@ section {
 
 .moon {
   background: transparent;
-  border-radius: 100px;
-  box-shadow: -25px 17px 0px 15px rgba(255, 255, 75, .5);
-  width: 10rem;
-  height: 10rem;
+  border-radius: 100%;
+  box-shadow: -45px 45px 0px 15px rgba(255, 255, 75, .5);
+  width: 25rem;
+  height: 25rem;
   position: absolute;
   top: 7vh;
-  left: 11vw;
+  left: 15vw;
   display: inline-block;
 }
 
@@ -89,8 +89,8 @@ section {
 
 #star2 {
       position: absolute;
-      top: 37%;
-      left: 30%;
+      top: 39%;
+      left: 7%;
       display: inline-block;
       transform: scale(1.5) rotate(-50deg);
       animation-name: twinkle2;
@@ -108,7 +108,7 @@ section {
 #star3 {
       position: absolute;
       top: 25%;
-      left: 10%;
+      left: 70%;
       display: inline-block;
       animation-name: twinkle3;
       animation-duration: 1.5s;
@@ -221,7 +221,7 @@ section {
 #star14 {
 		position: absolute;
 		top: 36%;
-		left: 19%;
+		left: 49%;
 		display: inline-block;
 		transform: rotate(60deg);
 		animation-name: twinkle14;
@@ -258,8 +258,8 @@ section {
 #greenMan {
   /*float: left;*/
   position: relative;
-  top: 50vh;
-  left: 150px;
+  top: 60vh;
+  left: 950px;
   width: 350px;
   height: 300px;
   border-radius: 50%;
