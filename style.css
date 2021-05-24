@@ -254,8 +254,8 @@ section {
 }
 }
 
-/*GREEN MAN*/
-#greenMan {
+/*GREEN MONSTER*/
+#greenMonster {
   /*float: left;*/
   position: relative;
   top: 60vh;
@@ -292,7 +292,7 @@ section {
     radial-gradient(circle at top center, rgba(194,225,132,1),rgba(154,205,50,1),rgba(138,184,45,1), rgba(123,164,40,1),rgba(77,102,25,1), rgba(61,82,20,1) 90%);
 }
 
-#greenMan::after {
+#greenMonster::after {
   content: '';
   /*mouth*/
   position: absolute;
